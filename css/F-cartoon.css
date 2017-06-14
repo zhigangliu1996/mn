@@ -1,0 +1,120 @@
+body{
+    background: #000;
+    opacity: 1;
+}
+/*深度体验崩坏世界观*/
+/*沉浸式体验崩坏世界观*/
+.F-section-1{
+    width: 100%;
+    height: 1000px;
+    background: url("../images/story/section_1_bg.jpg")no-repeat;
+    position: relative;
+}
+.F-section-1 .F-expect{
+    height: 90px;
+    position: absolute;
+    top: 835px;
+    left: 300px;
+    opacity:0;
+}
+.F-section-1 .F-expect .F-expect-left{
+    height: 90px;
+    width: 10px;
+    background: #00c3ff;
+    border-radius: 15px;
+    float: left;
+}
+.F-section-1 .F-expect .await{
+    display: block;
+    padding-top: 1px;
+    float: left;
+}
+.F-section-1 .await h3{
+    width: 441px;
+    height: 40px;
+    padding-top: 15px;
+    margin-left: 5px;
+    font-size: 2.4rem;
+    font-weight: 700;
+    transform: translateX(0px) skew(-10deg);
+    color: #fff;
+
+}
+.F-section-1 .await span{
+    display: block;
+    height: 45px;
+    line-height:1.8rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #00c3ff;
+    font-size: 1.3rem;
+}
+/*间隔蓝条*/
+.F-heiight{
+    height: 5px;
+    background: #00c3ff;
+}
+/*官方漫画*/
+.F-section-2{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: url("../images/story/section_2_bg.jpg")no-repeat;
+}
+.F-section-2 .F-section-2-text{
+    position: absolute;
+    width: 960px;
+    height: 968px;
+    margin: 0 auto;
+    left: 300px;
+    opacity:0;
+
+}
+.F-section-2 .F-txt1{
+    text-align: center;
+}
+.F-section-2 .F-txt1 h2{
+    padding-top: 46px;
+    color: #fff;
+    font: 700 58px/70px "微软雅黑";
+    transform: skew(-.15rad);
+}
+.F-section-2 .F-txt1 p{
+    display: block;
+    color: #aabbce;
+    font:400 20px/32px "impact";
+}
+.F-section-2 .F-txt1 span{
+    display: block;
+    font-size: 24px;
+    line-height: 72px;
+    color: #fff;
+    transform: translateX(0px) skew(-10deg);
+}
+/*官网漫画logo*/
+.F-section-2 .F-section-2-text .F-txt2{
+    position: absolute;
+    bottom: -50px;
+    left: 250px;
+    /*margin-left: -175px;*/
+    width: 484px;
+    height: 235px;
+}
+.F-section-2 .F-txt2 img{
+    cursor: pointer;
+    -webkit-transition : all 0.5s ease 0s ;
+    -moz-transition : all 0.5s ease 0s ;
+    -o-transition : all 0.5s ease 0s ;
+
+}
+.F-section-2 .F-txt2 img:hover{
+    -webkit-transition : all 0.5s ease 0s ;
+    /*-moz-transition : all 0.5s ease 0s ;*/
+    /*-o-transition : all 0.5s ease 0s ;*/
+    /*-moz-transform :translate(-2px,-2px);*/
+    -webkit-transform : translate(-2px,-2px);
+    /*-o-transform : translate(-2px,-2px);*/
+    /*-ms-transform : translate(-2px,-2px);*/
+    transform : translate(-6px,-6px);
+
+}

@@ -1,0 +1,345 @@
+/*主体内容*/
+.F-board{
+    height: 1006px;
+    width: 100%;
+    /*min-width: 1080px;*/
+    /*max-width: 100%;*/
+    background: url("../images/comic/display_background.jpg") no-repeat center;
+    margin: 0 auto;
+}
+.FW{
+    margin: 0 auto;
+    width: 920px;
+    height: 1006px;
+    position: relative;
+}
+/*开头特效*/
+.F-board-box .animation{
+    margin: 0 auto;
+    width: 920px;
+    height: 728px;
+    background: rgba(117,16,94,.4);
+    /*opacity: 0.5;*/
+    position: absolute;
+    top: 90px;
+    z-index: 5;
+    display: block;
+}
+/*左侧小人物特效*/
+.left-figure2{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge2.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 70px;
+    top: -15px;
+}
+.left-figure3{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge2.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 50px;
+    top: 230px;
+
+}
+.left-figure4{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge2.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 475px;
+    left: 70px;
+
+}
+.left-figure5{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge2.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: -15px;
+    left: 356px;
+}
+/*logo*/
+.logo{
+    width: 340px;
+    height: 400px;
+    background: url("../images/comic/logo.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -170px;
+    top: 260px;
+    opacity:1;
+}
+/*右侧小人物特效*/
+.right-figure2{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge1.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 50px;
+    top: -15px;
+}
+.right-figure3{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge1.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 230px;
+    right: 652px;
+
+}
+.right-figure4{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge1.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    right: 50px;
+    top: 475px;
+}
+.right-figure5{
+    width: 200px;
+    height: 435px;
+    background: url("../images/comic/gangge1.png")no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top: 475px;
+    right: 356px;
+}
+/*漫画列表*/
+.F-board .F-board-box{
+    width: 920px;
+    height: 1006px;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 100;
+    background: url("../images/comic/display_board.jpg")no-repeat ;
+}
+.F-board-box ul>li{
+    float: left;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+    margin-right: 40px;
+    position: relative;
+}
+.F-board-box .item1 .items-i{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+/*.items-i:hover{*/
+    /*-moz-box-shadow:0 0 25px rgba(255,255,255,1);*/
+    /*-webkit-box-shadow: 0 0 25px rgba(255,255,255,1);*/
+    /*box-shadow: 0 0 25px rgba(255,255,255,1);*/
+/*}*/
+/*窗口文本*/
+.border{
+    border-radius: 40px;
+}
+.F-board-box li .item-t{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -33px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 22px;
+    color: #fff;
+}
+/*9个图片窗口*/
+.F-board-box  .mt1{
+    margin-top: 125px;
+}
+.F-board-box  .mt2{
+    margin-top: 43px;
+}
+.F-board-box li .items1,
+.F-board-box li .items2,
+.F-board-box li .items3,
+.F-board-box li .items4,
+.F-board-box li .items5,
+.F-board-box li .items6,
+.F-board-box li .items7,
+.F-board-box li .items8,
+.F-board-box li .items9{
+    position: absolute;
+    width: 200px;
+    height: 158px;
+}
+/*第一页*/
+.F-board-box .item1{
+    display: none;
+}
+.F-board-box .item1 .items1{
+    background: url("../images/comic/0001.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+}
+.F-board-box .item1 .items2{
+    background: url("../images/comic/0002.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+}
+.F-board-box .item1 .items3{
+    background: url("../images/comic/0003.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items4{
+    background: url("../images/comic/0004.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items5{
+    background: url("../images/comic/0005.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items6{
+    background: url("../images/comic/0006.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items7{
+    background: url("../images/comic/0007.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items8{
+    background: url("../images/comic/0008.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+.F-board-box .item1 .items9{
+    background: url("../images/comic/0009.jpg")no-repeat 0 -10px;
+    background-size: 100%;
+
+}
+/*列表目录*/
+.F-board-box .list ul{
+    width: 182px;
+    height: 35px;
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    bottom: 132px;
+}
+.F-board-box .list span{
+    color: #999999;
+}
+.F-board-box .list li{
+    display: inline-block;
+    float: left;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+/*左右两侧小人物*/
+.F-board .left-figure{
+    width: 340px;
+    height: 435px;
+    background: url("../images/comic/display_fun_1.png")no-repeat -40px -385px;
+    position: absolute;
+    left: -460px;
+    top: 55%;
+    margin-top: -168px;
+    opacity: 0;
+}
+.F-board .right-figure{
+    width: 340px;
+    height: 435px;
+    background: url("../images/comic/display_fun_2.png")no-repeat -1505px -385px;
+    position: absolute;
+    right: -425px;
+    top: 55%;
+    margin-top: -168px;
+    opacity: 0;
+}
+
+/*返回 背景图*/
+.F-board .return{
+    width: 410px;
+    height:305px;
+    background: url("../images/comic/comic.png")no-repeat -1410px -70px;
+    position: absolute;
+    top: 65px;
+    right: -420px;
+}
+
+/*上下页面*/
+.F-board .up{
+    position: absolute;
+    left: 36px;
+    bottom: 122px;
+    cursor: pointer;
+
+}
+.F-board .up:hover{
+    -moz-box-shadow:0 0 25px rgba(255,255,255,1);
+    -webkit-box-shadow: 0 0 25px rgba(255,255,255,1);
+    box-shadow: 0 0 25px rgba(255,255,255,1);
+}
+.F-board  .dowm{
+    position: absolute;
+    right: 36px;
+    bottom: 122px;
+    cursor: pointer;
+}
+.F-board .dowm:hover{
+    -moz-box-shadow:0 0 40px rgba(255,255,255,1);
+    -webkit-box-shadow: 0 0 40px rgba(255,255,255,1);
+    box-shadow: 0 0 40px rgba(255,255,255,1);
+}
+
+/*左右三角*/
+.F-board .FW .left-arrows {
+    width: 285px;
+    height: 826px;
+    float: left;
+    background: url("../images/comic/prev_button.png") no-repeat;
+    position: absolute;
+    left: -120px;
+    top: 300px;
+}
+.F-board .FW .right-arrows{
+    width: 285px;
+    height: 826px;
+    background: url("../images/comic/next_button.png")no-repeat;
+    position: absolute;
+    right: -120px;
+    top: 300px;
+
+}
+
+/*底部信息*/
+.F-footer{
+    width: 100%;
+    height: 120px;
+    line-height: 20px;
+    background: #140C21;
+}
+.F-footer .w>div{
+    font-size: 12px;
+    color: #A07F8E;
+
+}
+.F-footer .w>.b-text-t{
+    padding-top: 34px;
+}
+.F-footer .w>.b-text1{
+}
+.F-footer .w>.b-text2{
+}
